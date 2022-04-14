@@ -10,7 +10,7 @@ import SwiftUI
 struct BalanceView: View {
     @Environment(\.colorScheme) var theme
     
-    @State var showBalance = true
+    @State var viewModel = BalanceViewModel()
     
     var body: some View {
         VStack {
@@ -20,12 +20,12 @@ struct BalanceView: View {
                     Text("SALDO CONTA-CORRENTE")
                         .opacity(0.7)
                         .font(Font.custom("Dosis-Regular", size: 14, relativeTo: .subheadline))
-                    Text(showBalance ? "R$  10.461,00" : "R$   * * * * *" )
+                    Text(viewModel.showBalance ? "R$  10.461,00" : "R$   * * * * *" )
                         .font(Font.custom("Dosis-Bold", size: 26, relativeTo: .subheadline))
                 }
                 Spacer()
-                Button{showBalance.toggle()} label: {
-                    Image(systemName: showBalance ? "eye.slash" : "eye")
+                Button{viewModel.balanceToggle()} label: {
+                    Image(systemName: viewModel.showBalance ? "eye.slash" : "eye")
                         .font(.system(size: 20, weight: .regular))
                 }
                 .padding(.top, 20)
