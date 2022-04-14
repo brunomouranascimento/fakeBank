@@ -11,6 +11,17 @@
 		DB82E9032806093E004B8216 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82E9022806093E004B8216 /* ContentView.swift */; };
 		DB82E90528060941004B8216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB82E90428060941004B8216 /* Assets.xcassets */; };
 		DB82E90828060941004B8216 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB82E90728060941004B8216 /* Preview Assets.xcassets */; };
+		DB82E91A280611EE004B8216 /* Dosis-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB82E919280611AA004B8216 /* Dosis-Bold.ttf */; };
+		DB82E91B280611F0004B8216 /* Dosis-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB82E918280611AA004B8216 /* Dosis-Regular.ttf */; };
+		DB82E91E28061408004B8216 /* Dosis-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB82E91D28061408004B8216 /* Dosis-ExtraBold.ttf */; };
+		DB82E92528061B53004B8216 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82E92428061B53004B8216 /* UserView.swift */; };
+		DB82E92728061B99004B8216 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82E92628061B99004B8216 /* HeaderView.swift */; };
+		DB82E92C28061F6F004B8216 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82E92B28061F6F004B8216 /* MainView.swift */; };
+		DB82E92E2806257B004B8216 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB82E92D2806257B004B8216 /* BalanceView.swift */; };
+		DBBFB86228073F540075581B /* OffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFB86128073F540075581B /* OffersView.swift */; };
+		DBBFB86428074E650075581B /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFB86328074E650075581B /* FavoritesView.swift */; };
+		DBBFB86628075B4C0075581B /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFB86528075B4C0075581B /* ShopView.swift */; };
+		DBBFB868280769090075581B /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFB867280769090075581B /* ServicesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,18 @@
 		DB82E9022806093E004B8216 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB82E90428060941004B8216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB82E90728060941004B8216 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB82E918280611AA004B8216 /* Dosis-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Regular.ttf"; sourceTree = "<group>"; };
+		DB82E919280611AA004B8216 /* Dosis-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Bold.ttf"; sourceTree = "<group>"; };
+		DB82E91C2806121C004B8216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB82E91D28061408004B8216 /* Dosis-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DB82E92428061B53004B8216 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		DB82E92628061B99004B8216 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DB82E92B28061F6F004B8216 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DB82E92D2806257B004B8216 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		DBBFB86128073F540075581B /* OffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersView.swift; sourceTree = "<group>"; };
+		DBBFB86328074E650075581B /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		DBBFB86528075B4C0075581B /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		DBBFB867280769090075581B /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +74,11 @@
 		DB82E8FF2806093E004B8216 /* fakeBank */ = {
 			isa = PBXGroup;
 			children = (
+				DB82E91F280619B6004B8216 /* View */,
+				DB82E92328061A6F004B8216 /* Resources */,
 				DB82E9002806093E004B8216 /* fakeBankApp.swift */,
 				DB82E9022806093E004B8216 /* ContentView.swift */,
-				DB82E90428060941004B8216 /* Assets.xcassets */,
+				DB82E91C2806121C004B8216 /* Info.plist */,
 				DB82E90628060941004B8216 /* Preview Content */,
 			);
 			path = fakeBank;
@@ -65,6 +90,40 @@
 				DB82E90728060941004B8216 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB82E91328061134004B8216 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB82E919280611AA004B8216 /* Dosis-Bold.ttf */,
+				DB82E91D28061408004B8216 /* Dosis-ExtraBold.ttf */,
+				DB82E918280611AA004B8216 /* Dosis-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		DB82E91F280619B6004B8216 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB82E92428061B53004B8216 /* UserView.swift */,
+				DB82E92628061B99004B8216 /* HeaderView.swift */,
+				DB82E92B28061F6F004B8216 /* MainView.swift */,
+				DB82E92D2806257B004B8216 /* BalanceView.swift */,
+				DBBFB86128073F540075581B /* OffersView.swift */,
+				DBBFB86328074E650075581B /* FavoritesView.swift */,
+				DBBFB86528075B4C0075581B /* ShopView.swift */,
+				DBBFB867280769090075581B /* ServicesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB82E92328061A6F004B8216 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB82E90428060941004B8216 /* Assets.xcassets */,
+				DB82E91328061134004B8216 /* fonts */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +184,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB82E91A280611EE004B8216 /* Dosis-Bold.ttf in Resources */,
 				DB82E90828060941004B8216 /* Preview Assets.xcassets in Resources */,
+				DB82E91B280611F0004B8216 /* Dosis-Regular.ttf in Resources */,
+				DB82E91E28061408004B8216 /* Dosis-ExtraBold.ttf in Resources */,
 				DB82E90528060941004B8216 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBBFB868280769090075581B /* ServicesView.swift in Sources */,
 				DB82E9032806093E004B8216 /* ContentView.swift in Sources */,
+				DBBFB86228073F540075581B /* OffersView.swift in Sources */,
 				DB82E9012806093E004B8216 /* fakeBankApp.swift in Sources */,
+				DBBFB86628075B4C0075581B /* ShopView.swift in Sources */,
+				DB82E92528061B53004B8216 /* UserView.swift in Sources */,
+				DBBFB86428074E650075581B /* FavoritesView.swift in Sources */,
+				DB82E92E2806257B004B8216 /* BalanceView.swift in Sources */,
+				DB82E92C28061F6F004B8216 /* MainView.swift in Sources */,
+				DB82E92728061B99004B8216 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +340,7 @@
 				DEVELOPMENT_TEAM = RRJWX5S3D9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fakeBank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +370,7 @@
 				DEVELOPMENT_TEAM = RRJWX5S3D9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fakeBank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
